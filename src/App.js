@@ -6,7 +6,7 @@ function App() {
     <div>
       <h1>HElloWorld</h1>
       <h2>HEllo Telangana</h2>
-      <h3>Hello React</h3>
+      <h3>Hello Wporld</h3>
     </div>
   );
 }
