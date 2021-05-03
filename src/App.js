@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <h1>HElloWorld</h1>
-      <h2>HEllo India</h2>
+      <h2>HEllo Telangana</h2>
     </div>
   );
 }
