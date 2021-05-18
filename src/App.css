@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+.board{
+  border:2px solid green;
+  margin:auto;
+  padding:30px;
+  border-radius: 10px;
+  width:600px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bidder{
+  border:2px solid black;
+  padding:30px;
+  margin-top:20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.biddertable{
+  border:2px solid skyblue;
+  margin:15px;
+  padding:10px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.mainbidd{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
 }
+.entry{
+  border:2px solid black;
+}
+.button0{
+  margin:5px;
+  padding:20px;
+  border-radius: 50%;
+  background-color:slategray;
+  cursor:pointer;
+  color:white;
+  border:none;
+}
+.button1{
+  margin:5px;
+  padding:20px;
+  border-radius: 50%;
+  background-color:rgb(0, 162, 255);
+  color:white;
+  border:none;
+  cursor:pointer;
+}
+.button2{
+  margin:5px;
+  padding:20px;
+  border-radius: 50%;
+  cursor:pointer;
+  border:none;
+  background-color:green;
+  color:white;
+}
+.button3{
+  margin:5px;
+  padding:20px;
+  border:none;
+  border-radius: 50%;
+  cursor:pointer;
+  background-color: red;
+  color:white;
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+  position:sticky;
+  top:0;
+}
+.flex-1{
+  display:flex;
+  justify-content:space-around;
+  padding: 5px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.buzzer{
+  height:200px;
+  width:300px;
+  border: 1px solid;
 }
